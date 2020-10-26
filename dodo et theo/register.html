@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Inscriptions</title>
+  <link rel="stylesheet" href="site.css">
+
+</head>
+
+<body>
+	<h2> Inscription, veuillez remplir ces champs afin de valider votre inscription : </h2>
+	<form>
+		<fieldset>
+				<label> Pseudonyme (4 à 15 caractères) : </label> <br> <br>
+					<input type= "text" name="pseudo" placeholder="Completez ce champ" required minlength= "4" maxlength= "15" size= "20"> <br> <br>
+		
+				<label> Mot de passe (8 caractères minimum) : </label> <br> <br>
+					<input type= "password" name= "mdp" placeholder="Completez ce champ" required minlength="8"> <br> <br>
+
+				<label> Confirmation mot de passe (8 caractères minimum) : </label> <br> <br>
+					<input type= "password" name= "confirm_mdp" placeholder="Completez ce champ" required minlength="8"> <br> <br>
+
+				<label> Email : </label> <br> <br>
+					<input type= "email" size = "30" placeholder="Completez ce champ" required> <br> <br>
+
+			</fieldset> <br> <br> <br>
+
+		  <input type="submit" name="envoyer">
+
+	</form>
+
+
+</body>
+
+</html>

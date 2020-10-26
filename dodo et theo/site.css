@@ -1,0 +1,56 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html, body
+{
+	height: 100%;
+	background-color: white;
+	color: #2F4F4F;
+}
+
+.conteneur
+{
+	margin-top: 8px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo
+{
+	width: 150px;
+}
+.facebook
+{
+	width: 95px;
+}
+.twitter
+{
+	margin-top: 12px;
+	width: 70px;
+}
+a
+{
+	text-decoration:none;
+}
+footer
+{
+	margin-left: 10px;
+	position: absolute;
+	bottom: 0;
+}
+.reseaux
+{
+	display: flex;
+	align-items: ;
+}
+.body_conteneur
+{
+	min-height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: ;
+}
