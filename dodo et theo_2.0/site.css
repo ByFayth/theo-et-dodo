@@ -6,7 +6,11 @@
 html, body /*important*/
 {
 	height: 100%;
-	min-height: 100%;
+	background-image: url("images/wallpaper.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	background-color: white;
 }
 body
@@ -16,14 +20,15 @@ body
 	width: 100%;
 	display: table;
 }
-
 .conteneur /*important*/
 {
-	margin-top: 8px;
+	position: fixed;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	border-bottom: solid;
+	font-family: Bradley Hand, cursive;
 }
 .logo /*important*/
 {
@@ -41,11 +46,12 @@ body
 a /*important*/
 {
 	text-decoration:none;
+	color:black;
 }
 footer /*important*/
 {
 	width: 100%;
-	margin-bottom: 10px;
+	padding-bottom: 10px;
 	display: table-row;
 	position: absolute;
 	bottom: 0;
@@ -60,25 +66,30 @@ footer /*important*/
 }
 .body_conteneur
 {
-	margin: auto; 
+	background-color: black;
+	margin: auto;
 	padding:25px;
-	width:930px;
+	width:900px;
 }
 .text_reseaux /*important*/
 {
 margin-left: 10px;	
 }
 
-header
-{
-	padding:10px 0px;
-}
 p, h3
 {
-	color: navy;
-	font:1em Tahoma, Geneva, sans-serif;sans-serif;
+	color: white;
+	font:1em Tahoma, Geneva, sans-serif;
 }
-h3, .copyright
+.black
 {
 	color: black;
+}
+.first_paragraph
+{
+	padding-top: 40px;
+}
+.conteneur, .white
+{
+	background-color: white;
 }
